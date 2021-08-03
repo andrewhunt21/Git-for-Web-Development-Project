@@ -5,26 +5,47 @@ Link to finished codepen: https://codepen.io/drewhunt21/pen/QWvBJzm?editors=1100
 Copy the questions below into the first-lastname.txt file on your github repo - answer each question and then push your changes. 
 
     1. What is Semantic HTML? 
+    describes its meaning to developer and browser
     2. What is HTML used for? 
+    it is the content of the website
     3. What is an attribute and where do we put it? 
+    they provide information about elements, we put them with tags
     4. What is the h1 tag used for? How many times should I use it on a page?
+    h1 is the main title of the page. each page should only have 1
     5. Name two tags that have required attributes
+    <img> <a>
     6. What do we put in the head of our HTML document? 
+    metadata
     7. What is an id? 
+    an attribute to specify unique id for an element
     8. What elements can I add an id to? 
-    9. How many times can I use the same id on a page? 
+    any element you only specify once on page
+    9. How many times can I use the same id on a page?
+    once 
     10. What is a class? 
+    used to style multiple things at once
     11. What elements can I add a class to? 
-    12. How many times can I use the same class on a page? 
+    any of them
+    12. How many times can I use the same class on a page?
+    infinite 
     13. How do I get my link to open in a new tab?
-    14. What is the alt attribute in the image tag used for? 
+    target="_blank"
+    14. What is the alt attribute in the image tag used for?
+    to title the img, metadata, ada compliance 
     15. How do I reference an id?
+    #
     16. What is the difference between a section and a div
+    sections define sections of content that should be grouped, div divides without meaning
     17. What is CSS used for? 
+    styiling the webpage
     18. How to we select an element? Example - every h2 on the page
+    h2 {}
     19. What is the difference between a class and an id? - Give me an example of when I might use each one
+    class can be used for multiple things, id should only be used for one. use class to style buttons, use id to tell buttons where to go
     20. How do we select classes in CSS?
+    .
     21. How do we select a p element with a single class of “human””?
+    <p class="human"></p>
     22. What is a parent child selector? When would this be useful? 
     23. How do you select all links within a div with the class of sidebar?
     24. What is a pseudo selector?
